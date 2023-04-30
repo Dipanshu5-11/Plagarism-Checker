@@ -1,6 +1,8 @@
 #Plagiarism Checker and Grammar Checker
 
 main.py
+
+
 This project is a plagiarism checker that allows a user to input a file path and check for plagiarism among text files in that directory and shows the result in GUI.
 This is a Python program that checks plagiarism among different text files and checks for grammar errors in them. The program uses the following libraries:
 
@@ -21,7 +23,14 @@ The program also includes a grammar checker that checks for grammar errors in th
 
 
 GUI.py
-GUI.py is a Python script that creates a graphical user interface (GUI) to display the results of two CSV files - plagiarism_results123.csv and grammar_errors123.csv. The GUI is created using the tkinter module of Python, and it displays the data in a table format with headers and rows. The script reads the CSV files using the read_csv() function, which returns the data in the form of a list of lists. The CSVViewer class is used to create the main frame of the GUI, the heading, and the table to display the data. Finally, the script creates the main window and runs the CSV viewers using the run() function of the CSVViewer class. You can also provide instructions on how to run the script and any other details that the user should be aware of.
+
+
+GUI.py is a Python script that creates a graphical user interface (GUI) to display the results of two CSV files. The GUI is created using the tkinter module of Python, and it displays the data in a table format with headers and rows. The script reads the CSV files using the read_csv() function, which returns the data in the form of a list of lists. The CSVViewer class is used to create the main frame of the GUI, the heading, and the table to display the data. Finally, the script creates the main window and runs the CSV viewers using the run() function of the CSVViewer class.
+
+
+After executing main.py it asks for the directory of the documents and then it saves tho files of plagarism results and grammar errors in csv file format. 
+After excecuting GUI.py it combines the two csv files and displays it in GUI in a new window 
+
 
 
 
